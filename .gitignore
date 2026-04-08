@@ -1,0 +1,19 @@
+# Environment variables and local overrides
+.env
+.env.*
+!.env.example
+
+# Docker and compose local artifacts
+*.log
+logs/
+
+# Runtime/data folders commonly used with local Chatwoot stacks
+postgres-data/
+redis-data/
+storage/
+
+# Editors/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

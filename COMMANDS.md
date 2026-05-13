@@ -88,7 +88,7 @@ cd /home/ubuntu/apps/rasa/chatwoot-local
 docker compose down -v
 docker compose up -d postgres redis
 docker compose run --rm rails bundle exec rails db:chatwoot_prepare
-docker compose up -d rails sidekiq
+docker compose up -d rails sidekiq reinicio app
 docker compose ps
 
 
